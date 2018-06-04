@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bakery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="mobile-menu mobile-only">
+		<a href="" class="close"></a>
+		<ul class="main-mobile-menu">
+			<li>
+				<a href="menu.html">Bakery</a>
+			</li>
+			<li>
+				<a href="index.html">Chocolate</a>
+			</li>
+			<li>
+				<a href="wine-club.html">About</a>
+			</li>
+			<li>
+				<a href="functions.html">Contacts</a>
+			</li>
+		</ul>
+
+	</div>
+	<a href="#" class="burger-button mobile-only">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+	
+		<div class="main-menu-wrap ">
+			<div class="top-nav desktop-only">
+					<div class="dotted-border">
+					<div class="row justify-content-center">
+						<div class="col-md-auto align-self-center">
+							<ul class="top-nav-menu top-nav-menu-left">
+								<li><a href="#">Bakery</a></li>
+								<li><a href="#">Chocolate</a></li>
+							</ul>
+						</div>
+						<div class="col-md-auto">
+							<div class="logo">
+								<img src="logo2.png">
+							</div>
+						</div>
+						<div class="col-md-auto align-self-center">
+							<ul class="top-nav-menu top-nav-menu-right">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contacts</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /.row -->
+				</div>
+				</div>
+			<!-- /.top-nav -->
+			
+				<div class="container">
+			<div class="row open">
+				<div class="col-md-8 col-sm-6">
+					<div class="cookies-bg">
+						<img src="cookies.jpg">
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 open-block-right">
+					<div class="work-hours">
+						<img src="open.jpg">
+						<p>Mon-fri – 8am-8pm</p>
+						<p>Saturday – 10am-3pm</p>
+						<p>Sunday – 12am-3pm</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- /.container -->
+	<script type="text/javascript">
+ 	$(".burger-button").click(function(){
+		$(".mobile-menu").addClass("mobile-menu-show");
+	});
+
+	$(".close").click(function(){
+		$(".mobile-menu").removeClass("mobile-menu-show");
+	});
+ </script>
+</body>
+</html>
